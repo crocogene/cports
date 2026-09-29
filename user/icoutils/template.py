@@ -1,0 +1,13 @@
+pkgname = "icoutils"
+pkgver = "0.32.3"
+pkgrel = 0
+build_style = "gnu_configure"
+configure_gen = []
+hostmakedepends = ["gettext"]
+makedepends = ["libpng-devel"]
+depends = ["perl"]
+pkgdesc = "Extracts and converts images in MS Windows icon and cursor files"
+license = "GPL-3.0-or-later"
+url = "https://www.nongnu.org/icoutils"
+source = f"$(NONGNU_SITE)/icoutils/icoutils-{pkgver}.tar.bz2"
+sha256 = "17abe02d043a253b68b47e3af69c9fc755b895db68fdc8811786125df564c6e0"
